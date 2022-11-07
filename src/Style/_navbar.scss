@@ -1,0 +1,18 @@
+.navbar-sticky {
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  background-color: transparent;
+}
+
+.navbar {
+  background-color: transparent;
+
+  .active {
+    color: $primary !important;
+  }
+  .inactive {
+    color: #0000008c !important;
+  }
+}
+

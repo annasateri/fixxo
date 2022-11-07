@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="icon" transform="translate(13755 1329)">
+    <rect id="Rectangle_238" data-name="Rectangle 238" width="50" height="50" rx="3" transform="translate(-13755 -1329)" fill="#ff7373"/>
+    <path id="Union_3" data-name="Union 3" d="M1847,59h-18V57h18V39h2V59Z" transform="translate(-11902 -1266) rotate(180)" fill="#fff"/>
+    <path id="Union_4" data-name="Union 4" d="M18,20H0V18H18V0h2V20Z" transform="translate(-13729 -1303)" fill="#fff"/>
+    <path id="Path_79" data-name="Path 79" d="M2.17,0H8.155V-9.94h7.49V-14.6H8.155v-5.18h10.01v-4.8h-16Z" transform="translate(-13743.91 -1291.855)" fill="#222529"/>
+    <path id="Path_80" data-name="Path 80" d="M3-.047c1.933,0,3.654.972,3.7,3.084A3.434,3.434,0,0,1,3,6.417,3.348,3.348,0,0,1-.36,3.164,3.313,3.313,0,0,1,3-.047Z" transform="translate(-13724 -1298.272)" fill="#222529"/>
+  </g>
+</svg>

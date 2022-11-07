@@ -1,0 +1,78 @@
+.hero-bg {
+  background: rgb(234,234,234);
+  background: linear-gradient(15deg, rgba(234,234,234,1) 0%, rgba(240,240,240,1) 100%); 
+  position: relative;
+  padding-top: 98px;
+  .hero-img {
+    width: 100%;
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    height: 100%;
+    h1 {
+      font-weight: 700;
+      font-size: 65px;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+}
+
+@media (min-width: 978px) {
+  .game {
+    .game-heading {
+      h2 {
+        font-size: 2.8rem !important;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-bg {
+    background-color: $backgroundColor;
+    .hero-img-wrapper {
+      display: flex;
+      align-items: flex-end;
+       .hero-img {
+          width: 100%;
+        }
+  
+    }
+
+  
+    .hero-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+      height: unset;
+      h1 {
+        font-weight: 700;
+        font-size: 65px;
+      }
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+  .game {
+    .game-heading {
+      h2 {
+        font-size: 2.8rem !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.showcase-section-1 {
+  position: relative;
+  img {
+    width: 100%;
+  }
+  .showcase-text {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-30%, -50%);
+    h1 {
+      font-weight: 700;
+      color: #fff;
+    }
+  }
+}
+
+.showcase-section-2 {
+  position: relative;
+  img {
+    width: 100%;
+  }
+  .showcase-text {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-70%, -50%);
+    h1 {
+      font-weight: 700;
+      color: #000;
+    }
+  }
+}

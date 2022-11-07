@@ -1,0 +1,32 @@
+.card {
+  border: none !important;
+}
+
+.card-img-top {
+  background-color: #F5F5F5;
+  height: 230px;
+  position: relative;
+  overflow: hidden;
+  &:hover {
+    .overlay-add {
+      transform: translate(0%, 0%);
+    }
+  }
+
+  .overlay-add {
+    position: absolute;
+    height: inherit;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    bottom: 0;
+    left: 0;
+    transform: translate(0%, 100%);
+    transition: all 0.5s ease-in-out;
+
+  }
+}
+
+.fa-star {
+  color: $primary;
+}
+
